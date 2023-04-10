@@ -102,7 +102,7 @@ worker node
 
 --> vi mysql-pod.yaml
    
-	-->(under containers, -images, name write below)
+-->(under containers, -images, name write below)
 		-> envFrom:
 		   - configMapRef:
 			name: db-config
@@ -133,7 +133,7 @@ worker node
 
 --> vi phpadmin-pod.yaml
    
-	-->(under containers, -images, name write below)
+-->(under containers, -images, name write below)
 		-> envFrom:
 		   - configMapRef:
 			name: phpadmin-config
